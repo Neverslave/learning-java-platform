@@ -1,0 +1,235 @@
+Table: account
+-----------+--------------+------+-----+---------+---------
+ Field     | Type         | Null | Key | Default | Remarks 
+-----------+--------------+------+-----+---------+---------
+ id        | INT(10)      | NO   | PRI |         |         
+ nickName  | VARCHAR(50)  | NO   |     |         |         
+ userName  | VARCHAR(150) | NO   |     |         |         
+ password  | VARCHAR(150) | NO   |     |         |         
+ salt      | VARCHAR(150) | NO   |     |         |         
+ status    | INT(10)      | NO   |     |         |         
+ createAt  | DATETIME(19) | NO   |     |         |         
+ ip        | VARCHAR(100) | YES  |     |         |         
+ avatar    | VARCHAR(100) | NO   |     |         |         
+ likeCount | INT(10)      | NO   |     | 0       | 被赞次数    
+-----------+--------------+------+-----+---------+---------
+
+Table: auth_code
+-----------+-------------+------+-----+---------+---------
+ Field     | Type        | Null | Key | Default | Remarks 
+-----------+-------------+------+-----+---------+---------
+ id        | VARCHAR(33) | NO   | PRI |         |         
+ accountId | INT(10)     | NO   |     |         |         
+ expireAt  | BIGINT(19)  | NO   |     |         |         
+ type      | INT(10)     | NO   |     |         |         
+-----------+-------------+------+-----+---------+---------
+
+Table: document
+----------+--------------+------+-----+---------+---------
+ Field    | Type         | Null | Key | Default | Remarks 
+----------+--------------+------+-----+---------+---------
+ mainMenu | INT(10)      | NO   | PRI |         | 主菜单     
+ subMenu  | INT(10)      | NO   | PRI |         | 子菜单     
+ title    | VARCHAR(300) | NO   |     |         |         
+ content  | TEXT(65535)  | NO   |     |         |         
+ updateAt | DATETIME(19) | NO   |     |         |         
+ createAt | DATETIME(19) | NO   |     |         |         
+ publish  | TINYINT(3)   | NO   |     | 0       |         
+----------+--------------+------+-----+---------+---------
+
+Table: download
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | INT(10)      | NO   | PRI |         |         
+ fileName      | VARCHAR(280) | NO   |     |         |         
+ descr         | VARCHAR(280) | NO   |     |         | 描述      
+ fileType      | VARCHAR(20)  | NO   |     |         | 文件类型    
+ size          | VARCHAR(20)  | NO   |     |         |         
+ createDate    | DATE(10)     | NO   |     |         |         
+ path          | VARCHAR(280) | NO   |     |         |         
+ downloadCount | INT(10)      | NO   |     |         |         
+ isShow        | INT(10)      | NO   |     | 0       |         
+---------------+--------------+------+-----+---------+---------
+
+Table: download_log
+--------------+--------------+------+-----+---------+---------
+ Field        | Type         | Null | Key | Default | Remarks 
+--------------+--------------+------+-----+---------+---------
+ id           | INT(10)      | NO   | PRI |         |         
+ accountId    | INT(10)      | NO   |     |         |         
+ ip           | VARCHAR(100) | YES  |     |         |         
+ fileName     | VARCHAR(200) | NO   |     |         |         
+ downloadDate | DATE(10)     | NO   |     |         |         
+--------------+--------------+------+-----+---------+---------
+
+Table: favorite
+-----------+--------------+------+-----+---------+---------
+ Field     | Type         | Null | Key | Default | Remarks 
+-----------+--------------+------+-----+---------+---------
+ id        | INT(10)      | NO   | PRI |         |         
+ accountId | INT(10)      | NO   |     |         |         
+ refType   | INT(10)      | NO   |     |         | 收藏类型：1为项目，2为分享，3为反馈
+ refId     | INT(10)      | NO   |     |         | 被收藏的资源 id
+ createAt  | DATETIME(19) | NO   |     |         | 收藏时间    
+-----------+--------------+------+-----+---------+---------
+
+Table: feedback
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | INT(10)      | NO   | PRI |         |         
+ accountId     | INT(10)      | NO   |     |         |         
+ projectId     | INT(10)      | NO   |     |         |         
+ title         | VARCHAR(150) | NO   |     |         |         
+ content       | TEXT(65535)  | NO   |     |         |         
+ createAt      | DATETIME(19) | NO   |     |         |         
+ clickCount    | INT(10)      | NO   |     | 0       |         
+ report        | INT(10)      | NO   |     | 0       |         
+ likeCount     | INT(10)      | NO   |     | 0       |         
+ favoriteCount | INT(10)      | NO   |     | 0       |         
+---------------+--------------+------+-----+---------+---------
+
+Table: feedback_reply
+------------+--------------+------+-----+---------+---------
+ Field      | Type         | Null | Key | Default | Remarks 
+------------+--------------+------+-----+---------+---------
+ id         | INT(10)      | NO   | PRI |         |         
+ feedbackId | INT(10)      | NO   |     |         |         
+ accountId  | INT(10)      | NO   |     |         |         
+ content    | TEXT(65535)  | NO   |     |         |         
+ createAt   | DATETIME(19) | NO   |     |         |         
+ report     | INT(10)      | NO   |     | 0       |         
+------------+--------------+------+-----+---------+---------
+
+Table: message
+----------+--------------+------+-----+---------+---------
+ Field    | Type         | Null | Key | Default | Remarks 
+----------+--------------+------+-----+---------+---------
+ id       | INT(10)      | NO   | PRI |         |         
+ user     | INT(10)      | NO   |     |         | 消息的主人   
+ friend   | INT(10)      | NO   |     |         | 对方的ID   
+ sender   | INT(10)      | NO   |     |         | 发送者     
+ receiver | INT(10)      | NO   |     |         | 接收者     
+ type     | TINYINT(3)   | NO   |     |         | 0：普通消息，1：系统消息
+ content  | TEXT(65535)  | NO   |     |         |         
+ createAt | DATETIME(19) | NO   |     |         | 创建时间    
+----------+--------------+------+-----+---------+---------
+
+Table: news_feed
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | INT(10)      | NO   | PRI |         |         
+ accountId     | INT(10)      | NO   |     |         | 动态创建者   
+ refType       | TINYINT(3)   | NO   |     |         | 动态引用类型  
+ refId         | INT(10)      | NO   |     | 0       | 动态引用所关联的 id
+ refParentType | TINYINT(3)   | NO   |     | 0       | reply所属的贴子类型, 与type 字段填的值一样
+ refParentId   | INT(10)      | NO   |     | 0       |         
+ createAt      | DATETIME(19) | NO   |     |         | 动态创建时间  
+---------------+--------------+------+-----+---------+---------
+
+Table: permission
+------------+---------------+------+-----+---------+---------
+ Field      | Type          | Null | Key | Default | Remarks 
+------------+---------------+------+-----+---------+---------
+ id         | INT(10)       | NO   | PRI |         |         
+ actionKey  | VARCHAR(512)  | NO   |     |         |         
+ controller | VARCHAR(512)  | NO   |     |         |         
+ remark     | VARCHAR(1024) | YES  |     |         |         
+------------+---------------+------+-----+---------+---------
+
+Table: project
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | INT(10)      | NO   | PRI |         |         
+ accountId     | INT(10)      | NO   |     |         |         
+ name          | VARCHAR(50)  | NO   |     |         |         
+ title         | VARCHAR(150) | NO   |     |         |         
+ content       | TEXT(65535)  | NO   |     |         |         
+ createAt      | DATETIME(19) | NO   |     |         |         
+ clickCount    | INT(10)      | NO   |     | 0       |         
+ report        | INT(10)      | NO   |     | 0       |         
+ likeCount     | INT(10)      | NO   |     | 0       |         
+ favoriteCount | INT(10)      | NO   |     | 0       |         
+---------------+--------------+------+-----+---------+---------
+
+Table: refer_me
+----------------+--------------+------+-----+---------+---------
+ Field          | Type         | Null | Key | Default | Remarks 
+----------------+--------------+------+-----+---------+---------
+ id             | INT(10)      | NO   | PRI |         |         
+ referAccountId | INT(10)      | NO   |     |         | 接收者账号id 
+ newsFeedId     | INT(10)      | NO   |     |         | newsFeedId
+ type           | TINYINT(3)   | NO   |     |         | @我、评论我等等的refer类型
+ createAt       | DATETIME(19) | NO   |     |         |         
+----------------+--------------+------+-----+---------+---------
+
+Table: remind
+-----------+---------+------+-----+---------+---------
+ Field     | Type    | Null | Key | Default | Remarks 
+-----------+---------+------+-----+---------+---------
+ accountId | INT(10) | NO   | PRI |         | 用户账号id，必须手动指定，不自增
+ referMe   | INT(10) | NO   |     | 0       | 提到我的消息条数
+ message   | INT(10) | NO   |     | 0       | 私信条数    
+ fans      | INT(10) | NO   |     | 0       | 粉丝增加个数  
+-----------+---------+------+-----+---------+---------
+
+Table: role
+----------+--------------+------+-----+---------+---------
+ Field    | Type         | Null | Key | Default | Remarks 
+----------+--------------+------+-----+---------+---------
+ id       | INT(10)      | NO   | PRI |         |         
+ name     | VARCHAR(128) | NO   |     |         |         
+ createAt | DATETIME(19) | NO   |     |         |         
+----------+--------------+------+-----+---------+---------
+
+Table: session
+-----------+-------------+------+-----+---------+---------
+ Field     | Type        | Null | Key | Default | Remarks 
+-----------+-------------+------+-----+---------+---------
+ id        | VARCHAR(33) | NO   | PRI |         |         
+ accountId | INT(10)     | NO   |     |         |         
+ expireAt  | BIGINT(19)  | NO   |     |         |         
+-----------+-------------+------+-----+---------+---------
+
+Table: share
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | INT(10)      | NO   | PRI |         |         
+ accountId     | INT(10)      | NO   |     |         |         
+ projectId     | INT(10)      | NO   |     |         |         
+ title         | VARCHAR(150) | NO   |     |         |         
+ content       | TEXT(65535)  | NO   |     |         |         
+ createAt      | DATETIME(19) | NO   |     |         |         
+ clickCount    | INT(10)      | NO   |     | 0       |         
+ report        | INT(10)      | NO   |     | 0       |         
+ likeCount     | INT(10)      | NO   |     | 0       |         
+ favoriteCount | INT(10)      | NO   |     | 0       |         
+---------------+--------------+------+-----+---------+---------
+
+Table: share_reply
+-----------+--------------+------+-----+---------+---------
+ Field     | Type         | Null | Key | Default | Remarks 
+-----------+--------------+------+-----+---------+---------
+ id        | INT(10)      | NO   | PRI |         |         
+ shareId   | INT(10)      | NO   |     |         |         
+ accountId | INT(10)      | NO   |     |         |         
+ content   | TEXT(65535)  | NO   |     |         |         
+ createAt  | DATETIME(19) | NO   |     |         |         
+ report    | INT(10)      | NO   |     | 0       |         
+-----------+--------------+------+-----+---------+---------
+
+Table: task_list
+--------+---------------+------+-----+---------+---------
+ Field  | Type          | Null | Key | Default | Remarks 
+--------+---------------+------+-----+---------+---------
+ id     | INT(10)       | NO   | PRI |         |         
+ type   | INT(10)       | NO   |     |         |         
+ refId  | INT(10)       | NO   |     |         |         
+ status | TINYINT(3)    | NO   |     | 0       | 0初始，1成功，2失败
+ msg    | VARCHAR(1000) | YES  |     |         | 用substring保证长度不超出范围
+--------+---------------+------+-----+---------+---------
+
