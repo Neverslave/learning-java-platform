@@ -1,6 +1,9 @@
 package com.zhu.jfinallearn.common.controller;
 
 import com.jfinal.core.Controller;
+import com.jfinal.core.NotAction;
+import com.zhu.jfinallearn.common.model.Account;
+import com.zhu.jfinallearn.login.LoginService;
 
 
 /**
@@ -19,5 +22,64 @@ import com.jfinal.core.Controller;
  *
  */
 public class BaseController extends Controller {
+
+    /**
+     * 警告：由于这个属性的存在，不能直接使用 FastControllerFactory，除非使用 jfinal 3.5
+     *      并覆盖父类中的 _clear_() 方法清除本类中与父类中的属性值，详情见本类中的
+     *      protected void _clear_() 方法
+     *
+     *      原因是 FastControllerFactory 是回收使用 controller 对象的，所以要在 _clear()_
+     *      中清除上次使用时的属性值
+     */
+    private Account loginAccount = null ;
+
+    protected  void _clear_(){
+        this.loginAccount = null;
+        super._clear_();
+    }
+
+    @NotAction
+    public Account getLoginAccount(){
+        if(loginAccount == null){
+            loginAccount = getAttr(LoginService.loginAccountCacheName);
+            if(loginAccount!=null &&!loginAccount.isStatusOk()){
+                throw new IllegalStateException("当前用户状态不允许登录，status="+loginAccount.getStatus());
+
+            }
+
+        }
+        return  loginAccount;
+    }
+
+    @NotAction
+    public boolean isLogin() {
+        return getLoginAccount() != null;
+    }
+
+    @NotAction
+    public boolean notLogin() {
+        return !isLogin();
+    }
+    /**
+     * 获取登录账户id
+     * 确保在 FrontAuthInterceptor 之下使用，或者 isLogin() 为 true 时使用
+     * 也即确定已经是在登录后才可调用
+     */
+    @NotAction
+    public int getLoginAccountId() {
+        return getLoginAccount().getId();
+    }
+
+    @NotAction
+    public boolean isPjaxRequest() {
+        return "true".equalsIgnoreCase(getHeader("X-PJAX"));
+    }
+
+    @NotAction
+    public boolean isAjaxRequest() {
+        return "XMLHttpRequest".equalsIgnoreCase(getHeader("X-Requested-With"));
+    }
+
+
 
 }

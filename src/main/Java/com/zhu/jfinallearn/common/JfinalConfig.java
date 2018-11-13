@@ -14,6 +14,7 @@ import com.jfinal.render.JsonRender;
 import com.jfinal.template.Engine;
 import com.zhu.jfinallearn._admin.common.AdminRoutes;
 import com.zhu.jfinallearn.common.handler.UrlSeoHandler;
+import com.zhu.jfinallearn.common.interceptor.LoginSessionInterceptor;
 import com.zhu.jfinallearn.common.kit.DruidKit;
 import com.zhu.jfinallearn.common.model._MappingKit;
 import com.zhu.jfinallearn.login.LoginService;
@@ -69,6 +70,10 @@ public class JfinalConfig extends JFinalConfig {
     public void configEngine(Engine me) {
         //设置模板热加载
         me.setDevMode(prop.getBoolean("engineDevMode", false));
+        //todo 配置模板指令
+
+        me.addSharedFunction("/_view/common/_layout.html"); //布局属性
+        me.addSharedFunction("/_view/common/_paginate.html"); //分页属性
     }
 
     /**
@@ -102,17 +107,13 @@ public class JfinalConfig extends JFinalConfig {
         arp.addSqlTemplate("/sql/all_sqls.sql");
         me.add(new EhCachePlugin()); //缓存插件
         me.add(new Cron4jPlugin());
-
-
-
-
     }
     /**
      * 全局拦截器
      *
      * */
     public void configInterceptor(Interceptors me) {
-       // me.add()
+       me.add(new LoginSessionInterceptor());
 
     }
 

@@ -1,0 +1,470 @@
+
+2018-11-13 16:11:59
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Can not create instance of class: com.tech.common.Myconfig
+java.lang.RuntimeException: Can not create instance of class: com.tech.common.Myconfig
+	at com.jfinal.core.JFinalFilter.createJFinalConfig(JFinalFilter.java:116)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:59)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:139)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:741)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:374)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:847)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:287)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:138)
+	at org.eclipse.jetty.server.Server.start(Server.java:416)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:383)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.jfinal.server.jetty.JettyServer.doStart(JettyServer.java:148)
+	at com.jfinal.server.jetty.JettyServer.start(JettyServer.java:69)
+	at com.jfinal.core.JFinal.start(JFinal.java:160)
+	at com.zhu.jfinallearn.common.Starter.main(Starter.java:9)
+Caused by: java.lang.ClassNotFoundException: com.tech.common.Myconfig
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:565)
+	at com.jfinal.server.jetty.JFinalClassLoader.loadClass(JFinalClassLoader.java:60)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.jfinal.core.JFinalFilter.createJFinalConfig(JFinalFilter.java:114)
+	... 20 more
+
+2018-11-13 16:12:44
+[ERROR]-[Thread: main]-[com.jfinal.core.Config.startPlugins()]: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+File not found : "sql/all_sqls.sql.sql"
+java.lang.IllegalArgumentException: File not found : "sql/all_sqls.sql.sql"
+	at com.jfinal.template.source.ClassPathSource.<init>(ClassPathSource.java:67)
+	at com.jfinal.template.source.ClassPathSourceFactory.getSource(ClassPathSourceFactory.java:29)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:157)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:144)
+	at com.jfinal.plugin.activerecord.sql.SqlKit.parseSqlTemplate(SqlKit.java:92)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:224)
+	at com.jfinal.core.Config.startPlugins(Config.java:128)
+	at com.jfinal.core.Config.configPluginWithOrder(Config.java:71)
+	at com.jfinal.core.Config.configJFinal(Config.java:56)
+	at com.jfinal.core.JFinal.init(JFinal.java:61)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:62)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:139)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:741)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:374)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:847)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:287)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:138)
+	at org.eclipse.jetty.server.Server.start(Server.java:416)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:383)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.jfinal.server.jetty.JettyServer.doStart(JettyServer.java:148)
+	at com.jfinal.server.jetty.JettyServer.start(JettyServer.java:69)
+	at com.jfinal.core.JFinal.start(JFinal.java:160)
+	at com.zhu.jfinallearn.common.Starter.main(Starter.java:9)
+
+2018-11-13 16:12:44
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+File not found : "sql/all_sqls.sql.sql"
+java.lang.RuntimeException: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+File not found : "sql/all_sqls.sql.sql"
+	at com.jfinal.core.Config.startPlugins(Config.java:137)
+	at com.jfinal.core.Config.configPluginWithOrder(Config.java:71)
+	at com.jfinal.core.Config.configJFinal(Config.java:56)
+	at com.jfinal.core.JFinal.init(JFinal.java:61)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:62)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:139)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:741)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:374)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1497)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1459)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:847)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:287)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:545)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:138)
+	at org.eclipse.jetty.server.Server.start(Server.java:416)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:108)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:113)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:383)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at com.jfinal.server.jetty.JettyServer.doStart(JettyServer.java:148)
+	at com.jfinal.server.jetty.JettyServer.start(JettyServer.java:69)
+	at com.jfinal.core.JFinal.start(JFinal.java:160)
+	at com.zhu.jfinallearn.common.Starter.main(Starter.java:9)
+Caused by: java.lang.IllegalArgumentException: File not found : "sql/all_sqls.sql.sql"
+	at com.jfinal.template.source.ClassPathSource.<init>(ClassPathSource.java:67)
+	at com.jfinal.template.source.ClassPathSourceFactory.getSource(ClassPathSourceFactory.java:29)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:157)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:144)
+	at com.jfinal.plugin.activerecord.sql.SqlKit.parseSqlTemplate(SqlKit.java:92)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:224)
+	at com.jfinal.core.Config.startPlugins(Config.java:128)
+	... 23 more
+
+2018-11-13 16:24:31
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:31
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:32
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:32
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:32
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:33
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:33
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:33
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:34
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:38
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /
+
+2018-11-13 16:24:42
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:42
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:42
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:43
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:43
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:24:43
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha
+
+2018-11-13 16:26:10
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha
+
+2018-11-13 16:27:44
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:27:44
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:27:44
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:27:44
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:27:45
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:27:45
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:38:56
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha
+
+2018-11-13 16:39:21
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha?v=0.9323251618768535
+
+2018-11-13 16:39:21
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha?v=0.09464146445816013
+
+2018-11-13 16:39:21
+[WARN]-[Thread: qtp1588970020-18]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha?v=0.7219834415958857
+
+2018-11-13 16:39:22
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha?v=0.4342953638922955
+
+2018-11-13 16:39:22
+[WARN]-[Thread: qtp1588970020-19]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha?v=0.500373267996308
+
+2018-11-13 16:41:20
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /login/detail/captcha
+
+2018-11-13 16:44:11
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:11
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:12
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:13
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:13
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:13
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:44:13
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:23
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:23
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:24
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:24
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:24
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:24
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:45:24
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:26
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:26
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:27
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:27
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:28
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:29
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:29
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:29
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:29
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:30
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:30
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:31
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:31
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:31
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:31
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:31
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:33
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:33
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:33
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:33
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:34
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:34
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:34
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:35
+[WARN]-[Thread: qtp1588970020-16]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 16:47:35
+[WARN]-[Thread: qtp1588970020-15]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-13]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:43
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:44
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:44
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:44
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:44
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:45
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:45
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:45
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:45
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:45
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:46
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:47
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:48
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:48
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:48
+[WARN]-[Thread: qtp1588970020-30]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:48
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:48
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:49
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:52
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:53
+[WARN]-[Thread: qtp1588970020-17]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4
+
+2018-11-13 17:26:53
+[WARN]-[Thread: qtp1588970020-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: /imewis/msugg?ifc=4&em=4

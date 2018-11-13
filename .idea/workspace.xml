@@ -4,7 +4,24 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/account/AccountService.java" line="14" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd0756c0-ff85-4fac-8f53-b06eb4737b32" name="Default Changelist" comment="" />
+    <list default="true" id="fd0756c0-ff85-4fac-8f53-b06eb4737b32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/FrontAuthInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jfinallearning.log" beforeDir="false" afterPath="$PROJECT_DIR$/jfinallearning.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/all_sqls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/_admin/common/AdminRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/_admin/common/AdminRoutes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/FrontRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/FrontRoutes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/JfinalConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/JfinalConfig.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,53 +34,62 @@
     <session id="-1818522786">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="all_sqls" value="1" />
+          <entry key="all_sqls" value="2" />
           <entry key="class" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="5" />
           <entry key="iml" value="1" />
-          <entry key="java" value="56" />
+          <entry key="java" value="77" />
+          <entry key="js" value="1" />
           <entry key="jsp" value="1" />
           <entry key="properties" value="2" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="56" />
+          <entry key="JAVA" value="77" />
           <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="2" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="1" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5863" />
+          <entry key="html" value="126" />
+          <entry key="java" value="7304" />
           <entry key="properties" value="112" />
           <entry key="txt" value="30" />
-          <entry key="xml" value="11" />
+          <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5863" />
+          <entry key="HTML" value="126" />
+          <entry key="JAVA" value="7304" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="Properties" value="112" />
-          <entry key="XML" value="11" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -75,61 +101,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="114" column="18" lean-forward="true" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/login/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="1846">
+              <caret line="121" column="30" lean-forward="true" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/handler/UrlSeoHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -137,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="220">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,19 +140,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Session.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="154">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1569#1570#0" expanded="true" />
+                <element signature="e#1591#1592#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/validate/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="563" column="37" lean-forward="true" selection-start-line="563" selection-start-column="37" selection-end-line="563" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/core/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="1310" column="52" selection-start-line="1310" selection-start-column="52" selection-end-line="1310" selection-end-column="52" />
+              <folding>
+                <element signature="e#38185#38186#0" expanded="true" />
+                <element signature="e#38252#38253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/captcha/CaptchaRender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="218" column="60" selection-start-line="218" selection-start-column="49" selection-end-line="218" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -170,8 +211,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -185,11 +230,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/config.txt" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/Starter.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_Gernerator.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_Generator.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Account.java" />
@@ -199,9 +242,19 @@
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/AuthCacheClearInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/kit/DruidKit.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/handler/UrlSeoHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/FrontAuthInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/kit/IpKit.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/LoginSessionInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/_view/common/_layout.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/_view/common/_paginate.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/_view/login/index.html" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" />
       </list>
     </option>
   </component>
@@ -211,7 +264,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -238,12 +291,15 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,7 +361,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zhu" type="462c0819:PsiDirectoryNode" />
               <item name="jfinallearn" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="_admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
@@ -317,7 +373,6 @@
               <item name="zhu" type="462c0819:PsiDirectoryNode" />
               <item name="jfinallearn" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
@@ -344,6 +399,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="_view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
@@ -389,21 +459,24 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542014999231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542101253701" />
     <property name="last_opened_file_path" value="G:/jfinal-club" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\jfinalclub\src\main\webapp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\jfinalclub\src\main\webapp\_view" />
       <recent name="G:\jfinalclub\src\main\resources" />
     </key>
   </component>
@@ -419,7 +492,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Starter">
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhu.jfinallearn.common.Starter" />
+      <module name="jfinalclub" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhu.jfinallearn.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhu.jfinallearn.common.model._Generator" />
       <module name="jfinalclub" />
@@ -433,8 +519,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application._Generator" />
+      <item itemvalue="Application.Starter" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Starter" />
         <item itemvalue="Application._Generator" />
       </list>
     </recent_temporary>
@@ -453,19 +544,20 @@
       <workItem from="1541645794618" duration="21405000" />
       <workItem from="1541724334002" duration="409000" />
       <workItem from="1541725498864" duration="17677000" />
-      <workItem from="1541983638052" duration="6025000" />
+      <workItem from="1541983638052" duration="6321000" />
+      <workItem from="1542069329974" duration="16875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46222000" />
+    <option name="totallyTimeSpent" value="63393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4923077" visible="true" weight="0.20877458" />
-      <window_info id="Structure" order="1" sideWeight="0.50769234" side_tool="true" visible="true" weight="0.20877458" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49082568" visible="true" weight="0.2118003" />
+      <window_info id="Structure" order="1" sideWeight="0.5091743" side_tool="true" visible="true" weight="0.2118003" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -474,17 +566,17 @@
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32973805" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32819724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32919255" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32819724" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -505,144 +597,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/json/MixedJsonFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31-sources.jar!/com/alibaba/fastjson/JSONArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1936">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31-sources.jar!/com/alibaba/fastjson/parser/JSONLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1688">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="1313" column="19" selection-start-line="1313" selection-start-column="19" selection-end-line="1313" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31-sources.jar!/com/alibaba/fastjson/JSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31-sources.jar!/com/alibaba/fastjson/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/config/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/template/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="400" column="18" selection-start-line="400" selection-start-column="18" selection-end-line="400" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/IPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/IDataSourceProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/druid/DruidPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6990">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/kit/PathKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/generator/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-856">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_DataDictionary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3652" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/IBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/base/BaseAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-706">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Download.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/ActiveRecordPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -663,9 +617,6 @@
           <caret line="213" column="19" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/all_sqls">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,13 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/druid/DruidStatViewHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -756,49 +700,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/AuthCacheClearInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/Handler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/handler/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -816,30 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/handler/UrlSeoHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/render/JsonRender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="114" column="18" lean-forward="true" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,24 +736,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="572">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/handler/UrlSeoHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/kit/StrKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1439">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.29/druid-1.0.29-sources.jar!/com/alibaba/druid/filter/stat/StatFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/AuthCacheClearInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/kit/IpKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/core/NotAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/FrontAuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="431">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/delete/backup-src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_paginate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/ueditor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/502.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/jfinal-com-v1.0.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="461" column="28" lean-forward="true" selection-start-line="461" selection-start-column="28" selection-end-line="461" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="106" column="39" selection-start-line="106" selection-start-column="39" selection-end-line="106" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/aop/Before.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1846">
+          <caret line="121" column="30" lean-forward="true" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/LoginSessionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/core/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1310" column="52" selection-start-line="1310" selection-start-column="52" selection-end-line="1310" selection-end-column="52" />
+          <folding>
+            <element signature="e#38185#38186#0" expanded="true" />
+            <element signature="e#38252#38253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/validate/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="563" column="37" lean-forward="true" selection-start-line="563" selection-start-column="37" selection-end-line="563" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/captcha/CaptchaRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="218" column="60" selection-start-line="218" selection-start-column="49" selection-end-line="218" selection-end-column="60" />
         </state>
       </provider>
     </entry>
