@@ -23,7 +23,7 @@ public class _MappingKit {
 		arp.addMapping("download", "id", Download.class);
 		arp.addMapping("download_log", "id", DownloadLog.class);
 		arp.addMapping("favorite", "id", Favorite.class);
-		arp.addMapping("feedback", "id", Feedback.class);
+		arp.addMapping("feedback.sql", "id", Feedback.class);
 		arp.addMapping("feedback_reply", "id", FeedbackReply.class);
 		arp.addMapping("message", "id", Message.class);
 		arp.addMapping("news_feed", "id", NewsFeed.class);

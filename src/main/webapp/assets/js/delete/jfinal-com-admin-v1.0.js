@@ -14,7 +14,7 @@ function setCurrentAdminMenu() {
 		navMenus.eq(1).addClass("jf-my-menu-current");
 	} else if (!url.indexOf('/admin/share')) {
 		navMenus.eq(2).addClass("jf-my-menu-current");
-	} else if (!url.indexOf('/admin/feedback')) {
+	} else if (!url.indexOf('/admin/feedback.sql')) {
 		navMenus.eq(3).addClass("jf-my-menu-current");
 	} else if (!url.indexOf('/admin/doc')) {
 		navMenus.eq(4).addClass("jf-my-menu-current");

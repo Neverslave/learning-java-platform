@@ -185,7 +185,7 @@ function resetMagicInput($checkbox) {
 }
 
 /**
- * 显示 share/feedback 的 reply 内容
+ * 显示 share/feedback.sql 的 reply 内容
  */
 function showReplyContent() {
 	var url = $(this).attr("data-url");
@@ -210,7 +210,7 @@ function showReplyContent() {
 }
 
 /**
- * 删除 share/feedback 的 reply 记录
+ * 删除 share/feedback.sql 的 reply 记录
  */
 function deleteReply() {
 	var url = $(this).attr("data-url");

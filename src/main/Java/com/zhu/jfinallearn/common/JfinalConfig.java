@@ -12,6 +12,7 @@ import com.jfinal.plugin.druid.DruidPlugin;
 import com.jfinal.plugin.ehcache.EhCachePlugin;
 import com.jfinal.render.JsonRender;
 import com.jfinal.template.Engine;
+import com.zhu.jfinallearn._admin.auth.AdminAuthKit;
 import com.zhu.jfinallearn._admin.common.AdminRoutes;
 import com.zhu.jfinallearn.common.handler.UrlSeoHandler;
 import com.zhu.jfinallearn.common.interceptor.LoginSessionInterceptor;
@@ -71,6 +72,11 @@ public class JfinalConfig extends JFinalConfig {
         //设置模板热加载
         me.setDevMode(prop.getBoolean("engineDevMode", false));
         //todo 配置模板指令
+
+
+
+        // 添加角色、权限 shared method
+        me.addSharedMethod(AdminAuthKit.class);
 
         me.addSharedFunction("/_view/common/_layout.html"); //布局属性
         me.addSharedFunction("/_view/common/_paginate.html"); //分页属性

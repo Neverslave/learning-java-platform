@@ -9422,7 +9422,7 @@ Pointer.prototype = {
 
 			self.hasPinched = hasZoom;
 
-			// Scale and translate the groups to provide visual feedback during pinching
+			// Scale and translate the groups to provide visual feedback.sql during pinching
 			self.scaleGroups(transform, clip);
 			
 			// Optionally move the tooltip on touchmove

@@ -45,7 +45,7 @@ function setCurrentNavMenu() {
 		navMenus.eq(1).addClass("jf-nav-menu-current");
 	} else if (!url.indexOf('/share')) {
 		navMenus.eq(2).addClass("jf-nav-menu-current");
-	} else if (!url.indexOf('/feedback')) {
+	} else if (!url.indexOf('/feedback.sql')) {
 		navMenus.eq(3).addClass("jf-nav-menu-current");
 	} else if (!url.indexOf('/doc')) {
 		navMenus.eq(4).addClass("jf-nav-menu-current");
@@ -61,7 +61,7 @@ function setCurrentMyMenu() {
 		navMenus.eq(0).addClass("jf-my-menu-current");
 	} else if (!url.indexOf('/my/share')) {
 		navMenus.eq(1).addClass("jf-my-menu-current");
-	} else if (!url.indexOf('/my/feedback')) {
+	} else if (!url.indexOf('/my/feedback.sql')) {
 		navMenus.eq(2).addClass("jf-my-menu-current");
 	} else if (!url.indexOf('/my/project')) {
 		navMenus.eq(3).addClass("jf-my-menu-current");
@@ -86,7 +86,7 @@ function setCurrentUserMenu() {
 	var url = location.pathname, navMenus = $(".jf-my-menu li");
 	if (!url.indexOf('/user/share')) {
 		navMenus.eq(1).addClass("jf-my-menu-current");
-	} else if (!url.indexOf('/user/feedback')) {
+	} else if (!url.indexOf('/user/feedback.sql')) {
 		navMenus.eq(2).addClass("jf-my-menu-current");
 	} else if (!url.indexOf('/user/project')) {
 		navMenus.eq(3).addClass("jf-my-menu-current");
@@ -125,7 +125,7 @@ function textareaAdjustHeightOsc(textarea) {
 	}
 }
 
-// share、feedback 详情页回复功能
+// share、feedback.sql 详情页回复功能
 function reply(url, articleId, map) {
 	if (map.isLoading) {
 		return ;
@@ -165,7 +165,7 @@ function reply(url, articleId, map) {
 	});
 }
 
-// share、feedback 详情页回复链接的 at 功能
+// share、feedback.sql 详情页回复链接的 at 功能
 function atAndReply(nickName) {
 	var replyContent = $('#replyContent');
 	var content = replyContent.val() + "@" + nickName + " ";
@@ -173,7 +173,7 @@ function atAndReply(nickName) {
 }
 
 /**
- * share、feedback 详情页回复错误信息提示框，需要引入 layer.js
+ * share、feedback.sql 详情页回复错误信息提示框，需要引入 layer.js
  *  news feed 模块的 replyNewsFeed(...) 也用到此方法，在演化时注意
   */
 function showReplyErrorMsg(msg) {
@@ -240,7 +240,7 @@ function confirmAjaxGet(msg, actionUrl, options) {
 	});
 }
 
-// share、feedback 详情页 reply 删除功能
+// share、feedback.sql 详情页 reply 删除功能
 function deleteReply(deleteBtn, url) {
 	confirmAjaxGet("删除后无法恢复，确定要删除？", url, {
 		success: function(ret) {

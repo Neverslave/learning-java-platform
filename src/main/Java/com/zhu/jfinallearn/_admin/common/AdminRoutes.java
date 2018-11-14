@@ -1,6 +1,9 @@
 package com.zhu.jfinallearn._admin.common;
 
 import com.jfinal.config.Routes;
+import com.zhu.jfinallearn._admin.auth.AdminAuthInterceptor;
+import com.zhu.jfinallearn._admin.controller.IndexAdminController;
+
 /**
  * 后台管理路由
  * 注意：自 jfinal 3.0 开始，baseViewPath 改为在 Routes 中独立配置
@@ -11,6 +14,12 @@ import com.jfinal.config.Routes;
  */
 public class AdminRoutes extends Routes {
     public void config() {
+        addInterceptor(new AdminAuthInterceptor());
+        addInterceptor(new PjaxInterceptor());
+        setBaseViewPath("/_view/_admin");
+
+
+        add("/admin", IndexAdminController.class,"/index");
 
 
     }
