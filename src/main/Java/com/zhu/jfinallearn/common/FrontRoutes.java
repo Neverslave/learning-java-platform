@@ -1,6 +1,7 @@
 package com.zhu.jfinallearn.common;
 
 import com.jfinal.config.Routes;
+import com.zhu.jfinallearn._admin.index.IndexController;
 import com.zhu.jfinallearn.login.LoginController;
 
 /**
@@ -12,6 +13,8 @@ public class FrontRoutes extends Routes {
         setBaseViewPath("/_view");
         //todo  添加控制器
         add("/login", LoginController.class);
+        add("/", IndexController.class, "/index");
+
 
 
 

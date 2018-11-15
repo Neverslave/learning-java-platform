@@ -2,13 +2,15 @@ package com.zhu.jfinallearn.login;
 
 import com.jfinal.aop.Before;
 import com.jfinal.aop.Clear;
+import com.jfinal.aop.Inject;
 import com.jfinal.core.ActionKey;
 import com.jfinal.kit.Ret;
 import com.zhu.jfinallearn.common.controller.BaseController;
 import com.zhu.jfinallearn.common.kit.IpKit;
 
 public class LoginController extends BaseController {
-    LoginService srv = LoginService.me;
+    @Inject
+    LoginService srv;
 
     /**
      * 显示登录界面

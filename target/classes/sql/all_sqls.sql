@@ -16,7 +16,9 @@
 #include("share.sql")
 #end
 
-
+#namespace("feedback")
+#include("feedback.sql")
+#end
 
 #namespace("admin.auth")
 #include("admin_auth.sql")

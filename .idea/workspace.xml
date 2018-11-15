@@ -5,26 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd0756c0-ff85-4fac-8f53-b06eb4737b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/share.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jfinallearning.log" beforeDir="false" afterPath="$PROJECT_DIR$/jfinallearning.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Share.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_DataDictionary.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_MappingKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_MappingKit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexAdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/_view/common/_header_right.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/_view/common/_header_right.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/jfinal-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jfinal-admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/delete/jfinal-com-admin-v1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/delete/jfinal-com-admin-v1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jfinal-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jfinal-admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jfinal-com-v1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jfinal-com-v1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/_admin/common/AdminRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/_admin/common/AdminRoutes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/JfinalConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/JfinalConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/index.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/FrontRoutes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/FrontRoutes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/Feedback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/Feedback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/Share.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/Share.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/_MappingKit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/common/model/_MappingKit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/index/IndexAdminService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/index/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/index/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhu/jfinallearn/login/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sql/all_sqls.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/all_sqls.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql/index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql/index.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,59 +46,60 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.54" value="2" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="all_sqls" value="2" />
-          <entry key="class" value="2" />
-          <entry key="css" value="1" />
-          <entry key="html" value="8" />
+          <entry key="class" value="3" />
+          <entry key="css" value="3" />
+          <entry key="html" value="11" />
           <entry key="iml" value="1" />
-          <entry key="java" value="93" />
+          <entry key="java" value="128" />
           <entry key="js" value="1" />
           <entry key="jsp" value="1" />
           <entry key="properties" value="2" />
-          <entry key="sql" value="16" />
-          <entry key="txt" value="4" />
+          <entry key="sql" value="25" />
+          <entry key="txt" value="6" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="8" />
+          <entry key="CLASS" value="3" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="11" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="128" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Properties" value="2" />
-          <entry key="SQL" value="18" />
+          <entry key="SQL" value="27" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="127" />
-          <entry key="java" value="7606" />
+          <entry key="java" value="7694" />
           <entry key="properties" value="112" />
           <entry key="sql" value="9" />
-          <entry key="txt" value="30" />
+          <entry key="txt" value="42" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="127" />
-          <entry key="JAVA" value="7606" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="JAVA" value="7694" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Properties" value="112" />
           <entry key="SQL" value="9" />
           <entry key="XML" value="15" />
@@ -146,79 +151,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="123" column="5" lean-forward="true" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/sql/admin_auth.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret column="37" lean-forward="true" selection-start-column="37" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jfinal_club_1.6.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="176">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/feedback.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/index.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/project.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-175" />
+            <state relative-caret-position="418">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/share.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexAdminService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="704">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/handler/UrlSeoHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1298">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/adv/_aliyun.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sql/index.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_Generator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexAdminService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -231,8 +254,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -250,10 +273,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.txt" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/Starter.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_Gernerator.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_Generator.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Account.java" />
@@ -270,10 +289,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/_view/common/_layout.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/_view/common/_paginate.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/_view/login/index.html" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/_view/_admin/common/_admin_layout.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/_view/_admin/common/_admin_paginate.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/_view/common/_menu.html" />
@@ -288,8 +305,25 @@
         <option value="$PROJECT_DIR$/src/main/webapp/_view/_admin/index/index.html" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexAdminService.java" />
         <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_MappingKit.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/safe/JsoupFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Project.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Share.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Feedback.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/index/IndexService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/index/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/download/DownloadService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/_view/index/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/_view/index/_sidebar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql/index.sql" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexAdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/_view/adv/_aliyun.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.txt" />
       </list>
     </option>
   </component>
@@ -326,13 +360,17 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,6 +394,51 @@
               <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhu" type="462c0819:PsiDirectoryNode" />
+              <item name="jfinallearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zhu" type="462c0819:PsiDirectoryNode" />
+              <item name="jfinallearn" type="462c0819:PsiDirectoryNode" />
+              <item name="_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -366,21 +449,39 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="_view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jfinalclub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jfinalclub" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/jfinalclub/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java" />
+    <property name="SearchEverywhereHistoryKey" value="feedback.sql&#9;FILE&#9;file://G:/jfinalclub/src/main/resources/sql/feedback.sql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542186275012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542274066349" />
     <property name="last_opened_file_path" value="G:/jfinal-club" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -466,11 +567,13 @@
       <workItem from="1542069329974" duration="16875000" />
       <workItem from="1542112524794" duration="5468000" />
       <workItem from="1542157309002" duration="9656000" />
+      <workItem from="1542242405389" duration="9368000" />
+      <workItem from="1542264744847" duration="3686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78517000" />
+    <option name="totallyTimeSpent" value="91571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,10 +585,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48952097" visible="true" weight="0.24659607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48952097" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" sideWeight="0.51047903" side_tool="true" weight="0.112774454" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -560,211 +663,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/core/NotAction.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/FrontAuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/delete/backup-src.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/ueditor/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/502.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/aop/Before.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/core/Controller.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/validate/Validator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/captcha/CaptchaRender.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/jfinal-com-v1.0.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="1267" column="20" selection-start-line="1267" selection-start-column="20" selection-end-line="1267" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jfinallearning.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/interceptor/LoginSessionInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5.jar!/com/jfinal/render/IRenderFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5.jar!/com/jfinal/render/Render.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5.jar!/com/jfinal/validate/Validator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/config.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5.jar!/com/jfinal/core/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16764">
-          <caret line="911" selection-start-line="911" selection-end-line="911" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_paginate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/common/_header_right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/PjaxInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/_admin/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/controller/IndexAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -800,20 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jfinal_club_1.6.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/common/AdminRoutes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,71 +709,303 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexAdminService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/plugin/activerecord/Db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="661" column="26" selection-start-line="661" selection-start-column="26" selection-end-line="661" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/kit/Kv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1320">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/auth/AdminAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar!/org/jsoup/Jsoup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1217">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Share.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2-sources.jar!/org/jsoup/safety/Whitelist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.9.2/jsoup-1.9.2-sources.jar!/org/jsoup/Jsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2838">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/safe/JsoupFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1813">
+          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jfinal/jfinal/3.5/jfinal-3.5-sources.jar!/com/jfinal/core/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/download.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="577" column="11" selection-start-line="577" selection-start-column="11" selection-end-line="577" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/download/DownloadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/base/BaseDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/Download.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/index/_sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1153">
+          <caret line="78" column="31" lean-forward="true" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_DataDictionary.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/feedback.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_MappingKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/project.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/share.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/jfinal-com-v1.0.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="697" column="1" selection-start-line="697" selection-start-column="1" selection-end-line="697" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/JfinalConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/FrontRoutes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="123" column="5" lean-forward="true" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/index/IndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/all_sqls.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/handler/UrlSeoHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="1298">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/_view/adv/_aliyun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/index.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/common/model/_Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/zhu/jfinallearn/_admin/index/IndexAdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/admin_auth.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="264">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/feedback.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/index.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/share.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/project.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jfinal_club_1.6.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175" />
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
       </provider>
     </entry>
   </component>

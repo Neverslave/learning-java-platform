@@ -1,4 +1,4 @@
-package com.zhu.jfinallearn.index;
+package com.zhu.jfinallearn._admin.index;
 
 
 import com.jfinal.kit.Ret;
@@ -32,7 +32,7 @@ public class IndexAdminService {
 
     public Ret getFeedbackProfile() {
         Ret ret = Ret.by("title", "反馈总数");
-        Integer total = Db.queryInt("select count(*) from feedback.sql");
+        Integer total = Db.queryInt("select count(*) from feedback");
         ret.set("total", total);
         return ret;
     }

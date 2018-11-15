@@ -17,7 +17,7 @@
 #end
 
 #namespace("feedback")
-###include("feedback.sql")
+#include("feedback.sql")
 #end
 
 #namespace("admin.auth")
