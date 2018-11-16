@@ -80,6 +80,9 @@ public class JfinalConfig extends JFinalConfig {
 
         me.addSharedFunction("/_view/common/_layout.html"); //布局属性
         me.addSharedFunction("/_view/common/_paginate.html"); //分页属性
+
+        me.addSharedFunction("/_view/_admin/common/__admin_layout.html");
+        me.addSharedFunction("/_view/_admin/common/_admin_paginate.html");
     }
 
     /**
